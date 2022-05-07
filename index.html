@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html id="top">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width device-width, initial-scale=1">
+	<title> Scroll CSS</title>
+	<style type="text/css">
+		html{
+	scroll-behavior: smooth;
+}
+		a{
+			display: inline-block;
+			width: auto;
+			text-decoration: none;
+			font-size: 1.3em;
+}
+nav, scroll-container{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+nav{
+	width: 1000px;
+	height: 100px;
+	padding: 50px;
+	border: 5px solid black;
+	background-color: #ff7979;
+	font-size:20px;
+	
+	
+}
+scroll-container{
+   width:800px;
+   height: auto;
+position:relative;
+
+}
+scroll-page1{
+	border: 7px solid #006266;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	font-size: 20px;
+	margin: 5px;
+	background-color: white;
+}	
+scroll-page2{
+	border: 7px solid #006266;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	font-size: 20px;
+	margin: 5px;
+	background-color: white;
+}
+scroll-page3{
+	border: 7px solid #006266;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	font-size: 20px;
+	margin: 5px;
+	background-color: white;
+} 	
+
+body{
+	background-image: url(https://bolosdocesecupcakes.com.br/wp-content/uploads/2017/06/maxresdefault-3.jpg);
+}
+
+
+</style>
+</head>
+<body>
+
+	<nav>
+      
+		<h2><center> Receitas de Bolo</center></h2>
+         <div align="right">
+		<a href="#page-1"> seção 01</a>
+		<a href="#page-2"> seção 02</a>
+		<a href="#page-3"> seção 03</a>
+		</div>
+		
+	</nav>
+
+   <scroll-container>
+   	<scroll-page1 id="page-1">
+   		<div align="center">
+   		  <h2><center> Bolo de chocolate</center></h2> 
+   
+   		 O bolo de chocolate é uma receita fácil de fazer que leva poucos ingredientes: farinha de trigo, leite, ovos e achocolatado em pó. <br>
+   		 Ingredientes  <br>
+            1 xícara de chá de leite <br>
+            1 xícara de chá de óleo de girassol ou de milho <br>
+            2 unidades de ovo <br>
+            2 xícaras de chá de farinha de trigo <br>
+            1 xícara de chá de achocolatado em pó <br>
+            1 xícara de chá de açúcar <br>
+            1 colheres de sopa de fermento químico em pó <br>
+            <br>
+</div>
+   	</scroll-page1>
+
+   		<scroll-page2 id="page-2">
+   			<div align="center">
+   		<h2> Bolo de Laranja</h2> 
+
+   	 Um clássico, simples e super fácil de preparar. Fica fofinho e com aquele sabor azedinho-doce da laranja. <br>
+
+   	 Ingredientes  <br>
+2 laranjas pêra <br>
+2 ovos <br>
+1 xícara (chá) de óleo <br>
+1 ½ xícara (chá) de açúcar <br>
+2 xícara (chá) farinha de trigo <br>
+2 colheres (chá) de fermento em pó <br>
+manteiga e farinha de trigo para untar e polvilhar a fôrma <br>
+<br>
+   </div>
+   	</scroll-page2>
+
+   		<scroll-page3 id="page-3">
+   			<div align="center">
+   		<h2> Bolo de Milho Cremoso</h2> 
+   		O bolo de milho cremoso é uma receita simples que fica bastante molhadinha e lembra uma pamonha <br>
+   		Ingredientes <br>
+1 espiga ou lata de milho-verde <br>
+3 ovos <br>
+2 colheres de sopa de manteiga <br>
+1 e meia xícara de chá de açúcar <br>
+3 xícaras de chá de leite <br>
+1 xicara de chá de fubá de milho <br>
+6 colheres de sopa de farinha de trigo <br>
+1 colher de sopa de fermento em pó <br>
+4 colheres de sopa de queijo parmesão ralado <br>
+<br> 		
+  </div>
+   	</scroll-page3>
+   </scroll-container>
+  
+     
+</body>
+</html>
